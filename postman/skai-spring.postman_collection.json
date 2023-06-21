@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "60c2428d-1a25-4753-8688-aeadb92119ef",
+		"name": "skai-spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19230158"
+	},
+	"item": [
+		{
+			"name": "calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": [
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/basketball_match0.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/basketball_match1.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/basketball_match2.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/basketball_match3.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/basketball_match4.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/handball_match0.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/handball_match1.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/handball_match2.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/handball_match3.csv",
+								"/home/auserox/Desktop/JavaProjects/skai-tournament-spring/csv/handball_match4.csv"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "{{localhost}}/calculate",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
